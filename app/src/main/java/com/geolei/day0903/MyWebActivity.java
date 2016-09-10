@@ -14,6 +14,7 @@ public class MyWebActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my_web);
         initView();
+	//我的第二次修改
 
     }
 
