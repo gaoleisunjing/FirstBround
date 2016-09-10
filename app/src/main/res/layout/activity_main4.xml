@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.geolei.day0903.Main4Activity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="用户名 4-13位数字或字母"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        android:id="@+id/fragment4EditText1Id"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="160dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:hint="密码 6-13位数字"
+        android:inputType="number"
+        android:background="@android:drawable/editbox_dropdown_light_frame"
+        android:id="@+id/fragment4EditText2Id"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="280dp"
+        android:orientation="horizontal"
+        >
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="40dp"
+           android:id="@+id/fragment4Button1Id"
+           android:background="@drawable/btn_register_focus"
+           />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fragment4Button2Id"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/btn_login_normal"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

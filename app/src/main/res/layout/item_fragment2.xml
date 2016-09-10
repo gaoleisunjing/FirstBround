@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView2Id"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:background="#aaa"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:orientation="horizontal"
+                android:id="@+id/linearlayout2Id"
+                >
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/peoplePhontId"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:text="人像"
+                    />
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/TourId"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:text="风光"
+                    />
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/environmentId"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:text="生态"
+                    />
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/shumaId"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:text="数码"
+                    />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="80dp"
+                android:layout_height="2dp"
+                android:id="@+id/view2Id"
+                android:background="#f80"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <android.support.v4.view.ViewPager
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment2ViewPagerId"
+        android:layout_below="@id/horizontalScrollView2Id"
+        />
+
+</RelativeLayout>

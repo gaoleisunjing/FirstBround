@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/headTitleImageId"
+        android:src="@mipmap/ic_launcher"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:id="@+id/headTitleTextViewId"
+        android:text="ggg"
+        android:layout_alignParentBottom="true"
+        />
+    <RadioGroup
+        android:layout_width="20dp"
+        android:layout_height="7dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="#aaa"
+        android:id="@+id/headRadioGroup1Id"
+        >
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/radio1headId"
+            android:button="@null"
+            android:checked="true"
+            android:background="@drawable/headradio"
+            />
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/radio2headId"
+            android:button="@null"
+            android:background="@drawable/headradio"
+            />
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/radio3headId"
+            android:button="@null"
+            android:background="@drawable/headradio"
+            />
+
+            />
+
+
+    </RadioGroup>
+
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollViewId"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:background="#aaa"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:orientation="horizontal"
+                android:id="@+id/linearlayoutId"
+                >
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="match_parent"
+                android:id="@+id/jingxuanId"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="精选"
+                />
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/qicaiId"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:text="器材"
+                    />
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/yinxiangId"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:text="影像"
+                    />
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/xueyuanId"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:text="学院"
+                    />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="80dp"
+                android:layout_height="2dp"
+                android:id="@+id/viewId"
+                android:background="#f80"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+        <android.support.v4.view.ViewPager
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/fragment1ViewPagerId"
+            android:layout_below="@id/horizontalScrollViewId"
+            />
+</RelativeLayout>

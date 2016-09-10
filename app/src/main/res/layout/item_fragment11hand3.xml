@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/imageFragmentHand3Id"
+        android:src="@mipmap/ic_launcher"
+        />
+    <RadioGroup
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="#aaa"
+        android:id="@+id/headRadioGroup3Id"
+        >
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/radio1head3Id"
+            android:button="@null"
+            android:background="@drawable/headradio"
+            />
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/radio2head3Id"
+            android:button="@null"
+            android:background="@drawable/headradio"
+            />
+        <RadioButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:id="@+id/radio3head3Id"
+            android:button="@null"
+            android:checked="true"
+            android:background="@drawable/headradio"
+            />
+
+            />
+
+
+    </RadioGroup>
+
+
+</RelativeLayout>

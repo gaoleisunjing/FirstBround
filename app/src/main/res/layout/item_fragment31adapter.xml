@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="60dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:id="@+id/fragment31Textview1Id"
+        android:text="ggg"
+        />
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:id="@+id/fragment31TextView2Id"
+        android:text="ggg"
+        android:layout_below="@id/fragment31Textview1Id"
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="20dp"
+        android:id="@+id/fragment31TextView3Id"
+        android:text="ggg"
+        android:layout_below="@id/fragment31Textview1Id"
+        android:layout_toRightOf="@id/fragment31TextView2Id"
+        />
+
+
+</RelativeLayout>

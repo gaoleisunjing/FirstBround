@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/fragment3LinearLayoutId"
+        >
+      <RadioGroup
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:id="@+id/fragment3RadionGroupId"
+          android:orientation="vertical"
+          >
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:text="全部论坛"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/bbs_icon_0"
+            android:padding="20dp"
+            android:id="@+id/fragment3RadioButton1Id"
+            />
+          <RadioButton
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="1"
+              android:button="@null"
+              android:text="题材作品区"
+              android:textSize="20sp"
+              android:drawableLeft="@drawable/bbs_icon_1"
+              android:padding="20dp"
+              android:id="@+id/fragment3RadioButton2Id"
+              />
+          <RadioButton
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="1"
+              android:button="@null"
+              android:text="全部摄影区"
+              android:textSize="20sp"
+              android:drawableLeft="@drawable/bbs_icon_2"
+              android:padding="20dp"
+              android:id="@+id/fragment3RadioButton3Id"
+              />
+          <RadioButton
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="1"
+              android:button="@null"
+              android:text="二手交易区"
+              android:textSize="20sp"
+              android:drawableLeft="@drawable/bbs_icon_3"
+              android:padding="20dp"
+              android:id="@+id/fragment3RadioButton4Id"
+              />
+          <RadioButton
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="1"
+              android:button="@null"
+              android:text="全国分站区"
+              android:textSize="20sp"
+              android:drawableLeft="@drawable/bbs_icon_4"
+              android:padding="20dp"
+              android:id="@+id/fragment3RadioButton5Id"
+              />
+          <RadioButton
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="1"
+              android:button="@null"
+              android:text="器材讨论区"
+              android:textSize="20sp"
+              android:drawableLeft="@drawable/bbs_icon_5"
+              android:padding="20dp"
+              android:id="@+id/fragment3RadioButton6Id"
+              />
+          <RadioButton
+              android:layout_width="match_parent"
+              android:layout_height="0dp"
+              android:layout_weight="1"
+              android:button="@null"
+              android:text="论坛服务区"
+              android:textSize="20sp"
+              android:drawableLeft="@drawable/bbs_icon_6"
+              android:padding="20dp"
+              android:id="@+id/fragment3RadioButton7Id"
+              />
+      </RadioGroup>
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/fragment3ListViewId"
+        android:layout_toRightOf="@id/fragment3LinearLayoutId"
+        android:divider="#aaa"
+        android:dividerHeight="1dp"
+        />
+
+
+
+
+
+
+</RelativeLayout>
